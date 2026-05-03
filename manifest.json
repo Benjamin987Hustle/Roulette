@@ -1,0 +1,13 @@
+{
+  "name": "42 Roulettes",
+  "short_name": "Roulette",
+  "description": "Casino Night Montréal — 42 Events",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#000000",
+  "theme_color": "#ff0000",
+  "start_url": "./roulette.html",
+  "icons": [
+    { "src": "2.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
