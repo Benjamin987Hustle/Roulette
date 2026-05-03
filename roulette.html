@@ -298,8 +298,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1vh;
+        gap: 0.4vh;
         height: 100%;
+        padding-top: 0;
+        margin-top: -1vh;
       }
 
       .right-col {
@@ -312,19 +314,20 @@
       }
 
       .casino-sign {
-        padding: 5px 12px 4px;
-        border-radius: 12px;
+        padding: 4px 10px 3px;
+        border-radius: 10px;
+        border-width: 2px;
       }
 
       .casino-sign img {
-        width: min(160px, 22vw);
+        width: min(110px, 16vw);
         max-width: none;
       }
 
       /* Roue adaptée à la hauteur de l'écran */
       .wheel-wrapper {
-        width: min(82vh, 380px);
-        height: min(82vh, 380px);
+        width: min(86vh, 390px);
+        height: min(86vh, 390px);
       }
 
       canvas#wheel,
